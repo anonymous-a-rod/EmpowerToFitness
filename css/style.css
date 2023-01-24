@@ -14,7 +14,7 @@
 }
 
 html {
-  font-size: 100%;
+  font-size: 90%;
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;
   overflow-x: hidden;
@@ -732,7 +732,7 @@ section {
 
 @media (max-width: 991px) {
   html {
-    font-size: 55%;
+    font-size: 90%;
     scroll-padding: 7rem;
   }
   .header {
@@ -799,7 +799,7 @@ section {
 
 @media (max-width: 450px) {
   html {
-    font-size: 50%;
+    font-size: 85%;
   }
 }
 /*# sourceMappingURL=style.css.map */
