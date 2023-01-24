@@ -731,21 +731,27 @@ section {
 }
 
 @media (max-width: 991px) {
+  body{
+    padding: 1rem;
+  }
   html {
-    font-size: 90%;
+    font-size: 60%;
     scroll-padding: 7rem;
   }
   .header {
-    padding: 0 2rem;
+    padding: 0 0rem;
+    display: flex;
+    justify-content: space-between;
   }
   section {
-    padding: 3rem 2rem;
+    padding: 3rem 1rem;
   }
   .home .slide {
-    padding: 2rem 5%;
+    padding: 0rem;
   }
   .home .slide .content {
     width: 50rem;
+    
   }
   .home .slide .content h3 {
     font-size: 4rem;
@@ -797,9 +803,3 @@ section {
   }
 }
 
-@media (max-width: 450px) {
-  html {
-    font-size: 85%;
-  }
-}
-/*# sourceMappingURL=style.css.map */
